@@ -10,6 +10,8 @@
 		9BD17D781510629900D3E567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD17D771510629900D3E567 /* Foundation.framework */; };
 		9BD17D7B1510629900D3E567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD17D7A1510629900D3E567 /* main.m */; };
 		9BD17D7F1510629900D3E567 /* CLIProject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BD17D7E1510629900D3E567 /* CLIProject.1 */; };
+		9BD17D87151062D000D3E567 /* GOCLIApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD17D86151062D000D3E567 /* GOCLIApp.m */; };
+		9BD17D8A1510634B00D3E567 /* GOCLICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD17D891510634B00D3E567 /* GOCLICommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +31,12 @@
 		9BD17D731510629900D3E567 /* CLIProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLIProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD17D771510629900D3E567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BD17D7A1510629900D3E567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9BD17D7D1510629900D3E567 /* CLIProject-Prefix.pch */ = {isa = PBXFileReference; path = "CLIProject-Prefix.pch"; sourceTree = "<group>"; };
+		9BD17D7D1510629900D3E567 /* CLIProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLIProject-Prefix.pch"; sourceTree = "<group>"; };
 		9BD17D7E1510629900D3E567 /* CLIProject.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CLIProject.1; sourceTree = "<group>"; };
+		9BD17D85151062D000D3E567 /* GOCLIApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOCLIApp.h; sourceTree = "<group>"; };
+		9BD17D86151062D000D3E567 /* GOCLIApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOCLIApp.m; sourceTree = "<group>"; };
+		9BD17D881510634B00D3E567 /* GOCLICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOCLICommand.h; sourceTree = "<group>"; };
+		9BD17D891510634B00D3E567 /* GOCLICommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOCLICommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				9BD17D7A1510629900D3E567 /* main.m */,
+				9BD17D85151062D000D3E567 /* GOCLIApp.h */,
+				9BD17D86151062D000D3E567 /* GOCLIApp.m */,
+				9BD17D881510634B00D3E567 /* GOCLICommand.h */,
+				9BD17D891510634B00D3E567 /* GOCLICommand.m */,
 				9BD17D7E1510629900D3E567 /* CLIProject.1 */,
 				9BD17D7C1510629900D3E567 /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BD17D7B1510629900D3E567 /* main.m in Sources */,
+				9BD17D87151062D000D3E567 /* GOCLIApp.m in Sources */,
+				9BD17D8A1510634B00D3E567 /* GOCLICommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

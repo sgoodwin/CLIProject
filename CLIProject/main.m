@@ -7,16 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GOCLIApp.h"
+#import "GOCLICommand.h"
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        GOCLIApp *app = [[GOCLIApp alloc] init];
         
+        GOCLICommand *command = [[GOCLICommand alloc] init];
+        [app addCommand:command];
+        
+        return [app handleArgC:argc andArgV:argv];
     }
-    return 0;
 }
 
