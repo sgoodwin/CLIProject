@@ -10,7 +10,8 @@
 
 @interface GOCLICommand : NSObject
 
-- (NSString *)stringValue;
+- (NSString *)name;
+- (NSString *)description;
 
 - (int)run:(NSDictionary *)args;
 

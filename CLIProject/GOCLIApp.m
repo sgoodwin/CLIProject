@@ -19,7 +19,7 @@
 }
 
 - (void)addCommand:(GOCLICommand *)command{
-    [_routes setObject:command forKey:[command stringValue]];
+    [_routes setObject:command forKey:[command name]];
 }
 
 - (void)printUsage{

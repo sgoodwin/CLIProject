@@ -10,12 +10,16 @@
 
 @implementation GOCLICommand
 
-- (NSString *)stringValue{
+- (NSString *)name{
     return @"hello";
 }
 
+- (NSString *)description{
+    return @"hello: prints a basic statement to see if this works";
+}
+
 - (int)run:(NSDictionary *)args{
-    NSLog(@"I worked! %@", args);
+    NSLog(@"I worked!");
     
     return noErr;
 }
