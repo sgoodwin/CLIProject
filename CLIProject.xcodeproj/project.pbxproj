@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BD17D781510629900D3E567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD17D771510629900D3E567 /* Foundation.framework */; };
+		9BD17D7B1510629900D3E567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD17D7A1510629900D3E567 /* main.m */; };
+		9BD17D7F1510629900D3E567 /* CLIProject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9BD17D7E1510629900D3E567 /* CLIProject.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9BD17D711510629900D3E567 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9BD17D7F1510629900D3E567 /* CLIProject.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9BD17D731510629900D3E567 /* CLIProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLIProject; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD17D771510629900D3E567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BD17D7A1510629900D3E567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BD17D7D1510629900D3E567 /* CLIProject-Prefix.pch */ = {isa = PBXFileReference; path = "CLIProject-Prefix.pch"; sourceTree = "<group>"; };
+		9BD17D7E1510629900D3E567 /* CLIProject.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CLIProject.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD17D701510629900D3E567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD17D781510629900D3E567 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BD17D681510629800D3E567 = {
+			isa = PBXGroup;
+			children = (
+				9BD17D791510629900D3E567 /* CLIProject */,
+				9BD17D761510629900D3E567 /* Frameworks */,
+				9BD17D741510629900D3E567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD17D741510629900D3E567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD17D731510629900D3E567 /* CLIProject */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD17D761510629900D3E567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BD17D771510629900D3E567 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BD17D791510629900D3E567 /* CLIProject */ = {
+			isa = PBXGroup;
+			children = (
+				9BD17D7A1510629900D3E567 /* main.m */,
+				9BD17D7E1510629900D3E567 /* CLIProject.1 */,
+				9BD17D7C1510629900D3E567 /* Supporting Files */,
+			);
+			path = CLIProject;
+			sourceTree = "<group>";
+		};
+		9BD17D7C1510629900D3E567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BD17D7D1510629900D3E567 /* CLIProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD17D721510629900D3E567 /* CLIProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD17D821510629900D3E567 /* Build configuration list for PBXNativeTarget "CLIProject" */;
+			buildPhases = (
+				9BD17D6F1510629900D3E567 /* Sources */,
+				9BD17D701510629900D3E567 /* Frameworks */,
+				9BD17D711510629900D3E567 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLIProject;
+			productName = CLIProject;
+			productReference = 9BD17D731510629900D3E567 /* CLIProject */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD17D6A1510629800D3E567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "SNAP Interactive";
+			};
+			buildConfigurationList = 9BD17D6D1510629800D3E567 /* Build configuration list for PBXProject "CLIProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9BD17D681510629800D3E567;
+			productRefGroup = 9BD17D741510629900D3E567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD17D721510629900D3E567 /* CLIProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD17D6F1510629900D3E567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD17D7B1510629900D3E567 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9BD17D801510629900D3E567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9BD17D811510629900D3E567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9BD17D831510629900D3E567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLIProject/CLIProject-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BD17D841510629900D3E567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CLIProject/CLIProject-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD17D6D1510629800D3E567 /* Build configuration list for PBXProject "CLIProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD17D801510629900D3E567 /* Debug */,
+				9BD17D811510629900D3E567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD17D821510629900D3E567 /* Build configuration list for PBXNativeTarget "CLIProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD17D831510629900D3E567 /* Debug */,
+				9BD17D841510629900D3E567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD17D6A1510629800D3E567 /* Project object */;
+}
